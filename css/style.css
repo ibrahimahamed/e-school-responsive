@@ -41,11 +41,13 @@ a, a:hover{
     color: #fff;
     padding: 7px 30px;
     transition: 1s ease-in-out;
+    border: 1px solid transparent;
     
 }
 .btn-info:hover{
     background: #fff;
     color: #21B573;
+    border: 1px solid #21B573;
 }
 .tex-right{
     justify-content: flex-end;
@@ -78,20 +80,6 @@ a, a:hover{
 }
 .col-8{
     width: 66.66%;
-}
-/* medium device */
-.col-md-12{
-    width: 100%;
-    padding: 20px;
-}
-.col-md-6{
-    width: 50%;
-    padding: 20px;
-}
-/* smal device */
-.col-sm-12{
-    width: 100%;
-    padding: 20px;
 }
 /* header section css */
 .banner-section{

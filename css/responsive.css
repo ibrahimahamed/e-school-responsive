@@ -4,6 +4,10 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 100% !important;
+        padding: 0 20px !important;
+    }
     .col-1{
         width: 50% !important;
     }
@@ -11,73 +15,69 @@
         width: 50% !important;
     }
     .col-4{
-        width: 50% !important;
+        width: 33.33% !important;
     }
     .col-4-2{
-        width: 100% !important;
+        width: 40% !important;
     }
     .col-4-1{
-        width: 50% !important;
+        width: 40% !important;
     }
     .col-2-5{
-        width: 50% !important;
-        padding: 20px 73px 0px !important;
+        width: 20% !important;
+        padding: 10px 0px 0px !important;
     }
     .col-8{
-        width: 100% !important;
+        width: 60% !important;
     }
     nav ul li a {
         font-size: 13px !important;
-        padding: 7px 8px !important;
+        padding: 7px 20px !important;
     }
     /* banner section css */
     .banner-section {
         padding-bottom: 20px !important;
     }
     .banner-content h1 {
-        font-size: 22px !important;
+        font-size: 40px !important;
         line-height: 1 !important;
         margin: 9px 0px !important;
     }
     .banner-content h1 span {
-        font-size: 22px !important;
+        font-size: 40px !important;
         line-height: 1.6 !important;
     }
     .banner-content p {
-        font-size: 12px !important;
+        font-size: 14px !important;
         line-height: 1.7 !important;
-        margin-bottom: 10px !important;
+        margin-bottom: 20px !important;
     }
     .btn-info {
-        font-size: 13px !important;
-        padding: 6px 20px !important;
+        font-size: 16px !important;
+        padding: 7px 30px !important;
     }
     .feature-inner h4 {
-        font-size: 16px !important;
+        font-size: 22px !important;
     }
     .courses-inner h2 {
-        font-size: 15px !important;
+        font-size: 17px !important;
         line-height: 1.6 !important;
         margin: 4px 0px 5px !important;
     }
     .courses-inner p {
-        margin-bottom: 16px !important;
+        margin-bottom: 14px !important;
     }
     .courses-inner ul {
         margin-top: 19px !important;
     }
-    .logo-inner {
-        text-align: center !important;
-        padding-right: 20px !important;
-    }
-    .logo-inner img {
-        width: 30% !important;
-    }
     .testimonial-section p {
+        font-size: 15px !important;
+    }
+    footer ul li a {
         font-size: 14px !important;
     }
     .footer-inner {
-        padding-top: 30px !important;
+        padding-top: 32px !important;
     }
 }
   
