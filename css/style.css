@@ -19,6 +19,7 @@ li{
 a, a:hover{
     text-decoration: none;
 }
+/* =========global css========== */
 .justify-content{
     justify-content: flex-end;
 }
@@ -33,27 +34,9 @@ a, a:hover{
 .align-items{
     align-items: center;
 }
-.btn-info{
-    background: #21B573;
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 30px;
-    color: #fff;
-    padding: 7px 30px;
-    transition: 1s ease-in-out;
-    border: 1px solid transparent;
-    
-}
-.btn-info:hover{
-    background: #fff;
-    color: #21B573;
-    border: 1px solid #21B573;
-}
 .tex-right{
     justify-content: flex-end;
 }
-
-/* xl device */
 .col-1{
     width: 50%;
     padding: 20px;
@@ -103,11 +86,13 @@ nav ul li a{
     font-weight: 600;
     color: #000;
     text-transform: uppercase;
+    border: 1px solid transparent;
     transition: .5s ease-in-out;
 }
 nav ul li a:hover{
     background: #21B573;
     border-radius: 30px;
+    border: 1px solid #21B573;
     color: #fff;
 }
 /* banner section css */
@@ -137,6 +122,22 @@ nav ul li a:hover{
     line-height: 1.7;
     font-weight: 400;
     margin-bottom: 20px;
+}
+.btn-info{
+    background: #21B573;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    color: #fff;
+    padding: 7px 30px;
+    transition: 1s ease-in-out;
+    border: 1px solid transparent;
+    
+}
+.btn-info:hover{
+    background: #fff;
+    color: #21B573;
+    border: 1px solid #21B573;
 }
 .banner-img{
     padding: 20px 0px 0px;
