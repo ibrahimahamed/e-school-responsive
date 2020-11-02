@@ -1,1 +1,1 @@
-# e-school-responsive
+# https://ibrahimahamed.github.io/e-school-responsive/
